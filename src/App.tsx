@@ -1,8 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { ApolloProvider } from '@apollo/client';
-import client from './apolloClient';
 import MyComponent from './components/my-component';
+import Posts from './components/post';
 
 
 const App: React.FC = () => {
@@ -10,6 +7,7 @@ const App: React.FC = () => {
     <div>
       <h1>Bienvenue sur mon site !</h1>
       <MyComponent title='myComponent' content='heyyyy'></MyComponent>
+      <Posts />
     </div>
   );
 };
@@ -17,12 +15,7 @@ const App: React.FC = () => {
 export default App;  // Assure-toi que l'exportation par défaut est présente
 
 
-ReactDOM.render(
-  <ApolloProvider client={client}>
-    <App />
-  </ApolloProvider>,
-  document.getElementById('root')
-);
+
 
 
 // import React from 'react';

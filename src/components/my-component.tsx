@@ -1,8 +1,8 @@
-import React from 'react';
-import { Props } from '../models/Props';
+import { environment } from '../environment/environment';
+import { Props } from '../models/props';
 
 const MyComponent: React.FC<Props> = ({ title, content }) => {
-  console.log(process.env.REACT_APP_API_URL);
+  // console.log(environment.apiUrl);
 
   return (
     <div>
