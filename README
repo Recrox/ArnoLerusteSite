@@ -1,0 +1,10 @@
+# LerusteArno_Front
+
+Bienvenue dans le projet LerusteArno_Front ! Ce projet utilise React pour le développement front-end.
+
+## Installation
+
+Pour installer les dépendances, utilisez la commande suivante :
+
+```bash
+npm install
