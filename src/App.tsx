@@ -1,6 +1,7 @@
 import MyComponent from './components/my-component';
 import Posts from './components/post';
-
+import './App.scss';
+import Page from './components/page';
 
 const App: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const App: React.FC = () => {
       <h1>Bienvenue sur mon site !</h1>
       <MyComponent title='myComponent' content='heyyyy'></MyComponent>
       <Posts />
+      <Page slug='ma-page-de-ouf'></Page>
     </div>
   );
 };
@@ -20,7 +22,7 @@ export default App;  // Assure-toi que l'exportation par défaut est présente
 
 // import React from 'react';
 // import logo from './logo.svg';
-// import './App.css';
+
 
 // function App() {
 //   return (

@@ -1,0 +1,6 @@
+query GetPageBySlug($slug: String!) {
+    pageBy(slug: $slug) {
+      title
+      content
+    }
+  }

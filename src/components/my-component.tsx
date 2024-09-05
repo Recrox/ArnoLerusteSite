@@ -1,7 +1,6 @@
-import { environment } from '../environment/environment';
-import { Props } from '../models/props';
+import { MyComponentProps } from "../models/props";
 
-const MyComponent: React.FC<Props> = ({ title, content }) => {
+const MyComponent: React.FC<MyComponentProps> = ({ title, content }) => {
   // console.log(environment.apiUrl);
 
   return (

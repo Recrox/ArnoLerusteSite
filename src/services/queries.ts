@@ -12,3 +12,11 @@ export const GET_POSTS = gql`
   }
 `; 
 
+export const GET_PAGE_BY_SLUG = gql`
+  query GetPageBySlug($slug: String!) {
+    pageBy(slug: $slug) {
+      title
+      content
+    }
+  }
+`;
