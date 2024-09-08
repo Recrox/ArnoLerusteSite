@@ -46,6 +46,31 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 
-## PHPadmin
-
+## Config
+http://localhost
 http://localhost/phpmyadmin/
+http://localhost/wordpress
+
+changer redirection XAMPP
+C:\Windows\System32\drivers\etc\hosts   (127.0.0.1 D:\Code à moi\ArnoLerusteSite\htdocs.local)
+
+(pas obligé je pense)
+D:\Programmes\XAMPP\apache\conf\https.conf 
+(
+    <!-- # Alias /projet1 "D:\Code à moi\ArnoLerusteSite\htdocs"
+# # Alias /projet2 "D:\Code à moi\ArnoLerusteSite\htdocs"
+
+# <Directory "D:\Code à moi\ArnoLerusteSite\htdocs">
+#     Options Indexes FollowSymLinks
+#     AllowOverride All
+#     Require all granted
+# </Directory>
+
+# <Directory "D:\Code à moi\ArnoLerusteSite\htdocs">
+#     Options Indexes FollowSymLinks
+#     AllowOverride All
+#     Require all granted
+# </Directory> -->
+)
+
+
